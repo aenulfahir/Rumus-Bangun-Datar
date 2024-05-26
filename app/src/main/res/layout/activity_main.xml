@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/btnbelahketupat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Belah Ketupat"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnlayanglayang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Layang-Layang"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnlingkaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Lingkaran"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnpersegi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Persegi"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnpersegipanjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Persegi Panjang"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnsegitigasamakaki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Segitiga Sama Kaki"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnsegitigasikusiku"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Segitiga Siku-siku"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnsegitigasamasisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Segitiga Sama Sisi"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btntrapesium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumus Trapesium"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
